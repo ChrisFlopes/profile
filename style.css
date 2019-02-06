@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(200,200,200);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(20,20,20);
+  font-size: 15;
+  line-height: normal;
+}
+
+h1 {
+  color: #745C97;
+  line-height: 80%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 20;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 15;
+  line-height: 1;
+}
+
+h4 {
+  margin: 0 0 0 8;
+  line-height: 0.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+tr {
+  background-color: rgba(230,230,230,0.1);
+}
+
+p {
+  font-size: 12;
+}
+
+i {
+  margin: 0 20;
+}
+
+a {
+  color: #745C97;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #593F62;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+  font-size: 30;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(245,245,245);
+  padding: 50px;
+  border-radius: 3px;
+  box-shadow: 2px 2px rgba(0,0,0,0.2);
+  margin: 15 auto;
+}
+
+.headshot {
+  margin: 10;
+}
+
+.fix_image_width {
+  max-width: 150px;
+}
+
+.reduce_size_for_headshot {
+  max-width: 50px;
+}
+
+.circle_image {
+  border-radius: 50%;
+}
+
+.image_double_border {
+  padding:1px;
+  border:1px solid #593F62;
+  background-color: #745C97;
+}
+
+#profile_pic_width {
+  max-width: 200px;
+}
+
+#easter_egg {
+  position: absolute;
+  bottom: -612px;
+  left: 287px;
+  color:rgba(0,0,0,0);
+}
